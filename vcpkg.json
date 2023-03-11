@@ -1,0 +1,11 @@
+{
+  "name": "chrome-test",
+  "version": "0.0.1",
+  "builtin-baseline": "62578200abd494caf19dc42d9a3cf0e0b47800db",
+  "dependencies": [
+    {
+      "name": "boost-beast",
+      "version>=": "1.81.0"
+    }
+  ]
+}

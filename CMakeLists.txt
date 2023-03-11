@@ -19,3 +19,6 @@ if (CMAKE_VERSION VERSION_GREATER 3.12)
 endif()
 
 # TODO: Add tests and install targets if needed.
+target_link_libraries(chrome-test Shlwapi.lib)
+# find_package(Boost REQUIRED [COMPONENTS <libs>...])
+# target_link_libraries(main PRIVATE Boost::boost Boost::<lib1> Boost::<lib2> ...)
